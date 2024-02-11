@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+
+
+/* Estilos para pantallas grandes
+@media screen and (min-width: 768px) {
+  body {
+    background: black;
+    width: 100%;
+    }
+  }*/
+
+  /* Agrega estilos específicos para pantallas mayores o iguales a 768px */
+/* Estilos para pantallas pequeñas 
+@media screen and (max-width: 767px) {
+  font-size: 0.8em;*/
+  /* Agrega estilos específicos para pantallas menores a 768px 
+}*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /*background-image: url(/FotoEdificio-LabNL.png);*/
+  /*background-image: url(https://www.labnuevoleon.mx/_next/image?url=https%3A%2F%2Fadmin.labnuevoleon.mx%2Fmedia%2F51982980628_09a5025dfa_o.jpg&w=3840&q=75);*/
+  
+  /*background-image: url(/FotoEdificio-LabNL.png);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  /*background-color: rgb(251 251 251);*/
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  /*width: /*100vw;/*auto;/*100vw;auto;1455px;*//*est fue la ultima100%;*/
+  /*height: /*auto;*//*esta fue la ultima 1000px;*/
+  max-width: 100%;
+  min-height: 100%;
+ /* max-width: 1200px;
+  min-height: 500px;*/
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(255 255 255);
+  width: 100vw;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 40px;
+  border-bottom: 2px solid rgb(221, 218, 218);
+  box-shadow:inset rgb(4, 53, 53) 
+}
+
+.icono-de-menu .btn img:hover {
+  transition: transform 0.3s;
+  transform: scale(1.3); 
+}
+
+.contenedor {
+  display: flex;
+  max-width: 100vw;
+  height: 900px;
+  background-image: url(./fotografias/FotoEdificio-LabNL-copy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: left;
+  padding: 10px 20px 50px 20px;
+  background-position: center;
+}
+
+  /*background-image: url(/Foto-ppal.png);
+  background-image: url(https://www.labnuevoleon.mx/_next/image?url=https%3A%2F%2Fadmin.labnuevoleon.mx%2Fmedia%2F51982980628_09a5025dfa_o.jpg&w=3840&q=75);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  /*background-color: rgb(255 255 255);*/
+  
+  /*align-items: top;
+}*/
+  
+
+/* Parte de una instrucción para hacer --Transparencia y gradiente-- en imagen... revisar
+el archivo ACORDEON 
+.contenedor .backgr::before{
+  content:'';
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient (to bottom, transparent 10%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0,) 95%);
+}*/
+/*.contenedor::before {
+  content: ""; /* Se requiere para que ::before sea visible 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*background-color: rgba(0, 0, 0, 0.2); /* Ajusta el último valor (0.5) para cambiar la opacidad del oscurecimiento 
+}*/
+.text {
+  width: 450px;
+  /*width: 70%;*/
+  height: auto;
+  color: white;
+  padding: 50px 10px 0 0;
+}
+.text p {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+}
+
+.unica {
+  padding: 8px;
+  margin: 20px 0 10px 0;
+}
+
+.accordion {
+  width: 100%;
+  margin: 15px 0 15px 0;
+}
+
+.titulo {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: bottom;
+  justify-content: center;
+  float: left;
+  width: 100vw;
+  height: auto;
+  background-color: rgb(227 227 227);
+  padding: 10px 0 10px 0;
+}
+.clearfix {
+  clear: both;
+}
+
+.pie-de-pagina {
+  align-items: center;
+  font-size: 15px;
+  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
+
+}
+
+
+/*@media screen and (max-width: 960px) {
+  body {
+    max-width: 100vw;
+  }
+
+  .text {
+    max-width: 30%;
+  } 
+}*/
